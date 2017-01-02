@@ -33,12 +33,12 @@
 			}
 
 			&:hover {
-				color: _palette(accent1);
-				border-color: _palette(accent1);
+				color: _palette(accent4);
+				border-color: _palette(accent4);
 			}
 
 			&:active {
-				background-color: transparentize(_palette(accent1), 0.9);
+				background-color: transparentize(_palette(accent4), 0.9);
 			}
 		}
 	}

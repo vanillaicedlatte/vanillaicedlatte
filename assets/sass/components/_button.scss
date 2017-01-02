@@ -44,12 +44,12 @@
 		}
 
 		&:hover {
-			color: _palette(accent1) !important;
-			box-shadow: inset 0 0 0 (_size(border-width) * 2) _palette(accent1);
+			color: _palette(accent4) !important;
+			box-shadow: inset 0 0 0 (_size(border-width) * 2) _palette(accent4);
 		}
 
 		&:active {
-			background-color: transparentize(_palette(accent1), 0.9);
+			background-color: transparentize(_palette(accent4), 0.9);
 		}
 
 		&.small {
@@ -66,11 +66,11 @@
 			color: _palette(bg) !important;
 
 			&:hover {
-				background-color: _palette(accent1);
+				background-color: _palette(accent4);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1), 8);
+				background-color: darken(_palette(accent4), 8);
 			}
 		}
 

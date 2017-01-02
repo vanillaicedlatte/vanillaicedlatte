@@ -22,13 +22,13 @@
 			}
 
 			section:nth-child(1) {
-				width: calc(66% - #{$gutter});
-				margin-right: $gutter;
+				width: 100%;
+				margin-right: 0;
 			}
 
 			section:nth-child(2) {
-				width: calc(33% - #{$gutter});
-				margin-left: $gutter;
+				width: 100%;
+				margin-left: 0;
 			}
 
 			.copyright {
@@ -66,13 +66,13 @@
 
 			> .inner {
 				section:nth-child(1) {
-					width: calc(66% - #{$gutter});
-					margin-right: $gutter;
+					width: 100%;
+					margin-right: 0;
 				}
 
 				section:nth-child(2) {
-					width: calc(33% - #{$gutter});
-					margin-left: $gutter;
+					width: 100%;
+					margin-left: 0;
 				}
 			}
 		}
@@ -82,13 +82,13 @@
 
 			> .inner {
 				section:nth-child(1) {
-					width: 66%;
+					width: 100%;
 					margin-right: 0;
 				}
 
 				section:nth-child(2) {
 					width: calc(33% - #{$gutter});
-					margin-left: $gutter;
+					margin-left: 0;
 				}
 			}
 		}
