@@ -191,6 +191,9 @@ a:hover {
   padding: 0 1.5em 1em 0;
 }
 
+.abtimg {
+  border-radius: 50% !important;
+}
 .fullg {
   padding-bottom: 200px !important;
 }
